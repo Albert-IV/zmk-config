@@ -50,9 +50,21 @@
             bindings = <&kp ESC>;
         };
 
+        escapetwo {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp ESC>;
+        };
+
         enter {
             timeout-ms = <50>;
             key-positions = <9 19>;
+            bindings = <&kp ENTER>;
+        };
+
+        entertwo {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
             bindings = <&kp ENTER>;
         };
 
@@ -62,9 +74,21 @@
             bindings = <&kp TAB>;
         };
 
+        tabtwo {
+            timeout-ms = <50>;
+            key-positions = <12 13>;
+            bindings = <&kp TAB>;
+        };
+
         untab {
             timeout-ms = <50>;
             key-positions = <6 16>;
+            bindings = <&kp LS(TAB)>;
+        };
+
+        untabtwo {
+            timeout-ms = <50>;
+            key-positions = <16 17>;
             bindings = <&kp LS(TAB)>;
         };
 
