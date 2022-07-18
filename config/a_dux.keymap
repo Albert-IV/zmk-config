@@ -52,7 +52,7 @@
 
         escapetwo {
             timeout-ms = <50>;
-            key-positions = <10 11>;
+            key-positions = <10 21>;
             bindings = <&kp ESC>;
         };
 
@@ -64,7 +64,7 @@
 
         entertwo {
             timeout-ms = <50>;
-            key-positions = <18 19>;
+            key-positions = <28 19>;
             bindings = <&kp ENTER>;
         };
 
@@ -76,7 +76,7 @@
 
         tabtwo {
             timeout-ms = <50>;
-            key-positions = <12 13>;
+            key-positions = <12 23>;
             bindings = <&kp TAB>;
         };
 
@@ -88,7 +88,7 @@
 
         untabtwo {
             timeout-ms = <50>;
-            key-positions = <16 17>;
+            key-positions = <26 17>;
             bindings = <&kp LS(TAB)>;
         };
 
